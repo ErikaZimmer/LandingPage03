@@ -26,9 +26,9 @@
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<div class="idiomas">
+<!--div class="idiomas">
   <p><a href="en/index.php">EN</a> | <a href="de.php">DE</a> | <a href="pt.php">PT</a></p>
-</div>
+</div-->
 
 <div id="logo-principal">
   <img class="mx-auto d-block" id="img-logo" src="img/logo08.png" width=50%>
