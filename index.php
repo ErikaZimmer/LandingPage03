@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126695754-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-126695754-1');
+	</script>  
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Meraki Solution</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link rel="stylesheet" href="style.css" />
+ 
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<div class="idiomas">
+  <p><a href="en/index.php">EN</a> | <a href="de.php">DE</a> | <a href="pt.php">PT</a></p>
+</div>
+
+<div id="logo-principal">
+  <img class="mx-auto d-block" id="img-logo" src="img/logo08.png" width=50%>
+</div>
+
+
+<nav class="navbar navbar-expand-md">
+  <button class="navbar-toggler navbar-header float-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <i class="fa fa-bars float-left bg-white"></i>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+    <ul class="navbar-nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link" href="#about">Nosotros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#tienda-nube">TiendaNube</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Servicios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#whatsay">Nuestros clientes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#pricing">Precios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contacto</a>
+      </li>  
+    </ul>
+  </div> 
+</nav>
+
+<div class="text-center banner">
+  <img src="img/banner01.jpg" id="banner01" width=90%>
+  <img src="img/bannermini01.jpg" id="banner02" width=90%>
+</div>
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid bg-primario">
+  <div class="row">
+    <div class="col-md-3 text-center">
+        <img src="img/icono01b.jpg" class="icon-circle icon-seccion" alt="Somos especialistas nube - Tienda Nube">
+    </div>
+  	<div class="col-md-9 text-justify">
+        <h2 class="txt-white text-titulo">Sobre nosotros</h2>
+        <p class="txt-gray">Somos un grupo de jóvenes profesionales en continuo aprendizaje que diseñamos y desarrollamos Sitios Web con las últimas tendencias en diseño y programación, especializandonos en páginas orientadas al E-Commerce. Cada proceso de creación se ajusta a cada cliente con el fin de resolver sus necesidades de la forma más productiva posible. </p> 
+        <h4 class="txt-white text-titulo">¿Qué significa Meraki?</h4>
+  	    <p class="txt-gray">Meraki es una palabra que proviene del griego antiguo y su definición se orienta más a una idea o a una forma de vida, mas que a una única palabra. En fin, Meraki significa "Poner el alma, creatividad y amor en lo que haces, dejando un pedazo de ti siempre en tu trabajo". Y así trabajamos, poniendo todo en cada trabajo. ¡Esperamos poder trabajar junto a vos!</p>
+    </div>
+  </div>
+  <br>
+  <h2 class="txt-white text-center">Algo más sobre nosotros</h2><br>
+  <div class="row text-center">
+    <div class="col-md-3">
+      <img src="img/icono02.jpg" class="icon-circle icon-nosotros" alt="">
+      <h4 class="txt-white">LIDERADO POR MUJERES</h4>
+      <p class="txt-gray">Meraki es una empresa liderada por mujeres y comprometida al equilibrio de la vida personal y el trabajo.</p>
+    </div>
+    <div class="col-md-3">
+      <img src="img/icono04.jpg" class="icon-circle icon-nosotros" alt="">
+      <h4 class="txt-white">COMPROMISO DE CALIDAD</h4>
+      <p class="txt-gray">Nuestros proyectos son llevados a cabo cuidadosamente y respetando siempre tus deseos y necesidades.</p>
+    </div>
+    <div class="col-md-3">
+      <img src="img/icono06.jpg" class="icon-circle icon-nosotros" alt="">
+      <h4 class="txt-white">EXPERIENCIA WOW</h4>
+      <p class="txt-gray">Nuestro objetivo es brindarte la mejor de las experiencias mientras lo construimos.</p>
+    </div>
+    <div class="col-md-3">
+      <img src="img/icono07.jpg" class="icon-circle icon-nosotros" alt="">
+      <h4 class="txt-white">ASISTENCIA ASEGURADA</h4>
+      <p class="txt-gray">Tus dudas siempre serán consideradas e investigadas para que todo funcione correctamente.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-secundario" id="tienda-nube">
+  <div class="row">
+      <div class="col-md-3 text-center">
+        <img src="img/especialistanube.png" class="icon-seccion" alt="Somos especialistas nube - Tienda Nube">
+      </div>     
+      <div class="col-md-9 text-justify">
+        <h2 class=" text-titulo">SOMOS ESPECIALISTAS NUBE</h2>
+        <h5 class=" text-titulo">¿Qué es un Especialistas Nube?</h5>
+        <p>Los Especialistas Nube somos un conjunto de agencias y profesionales independientes que tenemos experiencia trabajando en la plataforma de TiendaNube. Nosotros brindamos nuestros servicios para lograr los objetivos de cada cliente en relación con su tienda online.</p>
+        <h5 class=" text-titulo">Nuestra TiendaNube y Perfil de Especialistas</h5>
+        <p>Podes visitar nuestra tienda online donde vas a encontrar todos los servicios que ofrecemos y sus correspindientes precios actualizados. Para verla hace click <a href="https://www.merakisolution.com.ar/" target="_blank">aquí</a>.</p>
+        <p>Vas a poder ver nuestro perfil de Especialista haciendo click <a href="https://www.tiendanube.com/especialistas-nube/merakisolution" target="_blank">aquí</a>.</p>
+        <a href="https://www.tiendanube.com/partners/merakisolution" target="_blank"><img src="img/tiendanubebanner.png" id="img-nubebanner" width=100% alt="Crea tu tienda online en Tiendanube con 15 dias de servicio gratis"></a>
+        <a href="https://www.tiendanube.com/partners/merakisolution" target="_blank"><img src="img/tiendanubebannermini01.jpg" id="img-nubebannermini01" width=100% alt="Crea tu tienda online en Tiendanube con 15 dias de servicio gratis"></a>
+        <a href="https://www.tiendanube.com/partners/merakisolution" target="_blank"><img src="img/tiendanubebannermini00.jpg" id="img-nubebannermini00" width=100% alt="Crea tu tienda online en Tiendanube con 15 dias de servicio gratis"></a>
+      </div>
+  </div> 
+</div>
+
+<!-- Container (Services Section) -->
+<div id="services" class="container-fluid text-center bg-primario">
+  <h2 class="txt-white">SERVICIOS</h2>
+  <h4 class="txt-gray">Desde Meraki te ofrecemos siempre lo mejor.</h4>
+  <br>
+  
+  <div class="row text-center">
+    <div class="col-md-4 col-sm-4">
+      <img src="img/icono12.jpg" class="icon-circle icon-servicios"alt="">
+      <h4 class="txt-white">PÁGINAS WEB</h4>
+      <p class="txt-gray">Diseñamos páginas web Responsive para se vean bien en tu pc, celular y tablet.</p>
+   </div>
+    <div class="col-md-4 col-sm-4">
+      <img src="img/icono13.jpg" class="icon-circle icon-servicios" alt="">
+      <h4 class="txt-white">TIENDAS ONLINE</h4>
+      <p class="txt-gray">Trabajamos con las mejores plataformas ecommerce para que tu tienda online sean efectivas y eficientes.</p>
+    </div>
+    <div class="col-md-4 col-sm-4">
+      <img src="img/icono08.jpg" class="icon-circle icon-servicios" alt="">
+      <h4 class="txt-white">MANEJO DE REDES</h4>
+      <p class="txt-gray">Te ayudamos a que tus cuentas se destaquen con un toque único.</p>
+    </div>
+  </div>
+  <br>
+  <div class="row text-center">
+    <div class="col-md-3 col-sm-6">
+      <img src="img/icono07.jpg" class="icon-circle icon-servicios-sm" alt="">
+      <h4 class="txt-white">ACTUALIZACIÓN DE WEBS</h4>
+      <p class="txt-gray">Hacemos los cambios necesarios en tu web para que se vea soñada.</p>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <img src="img/icono09.jpg" class="icon-circle icon-servicios-sm" alt="">
+      <h4 class="txt-white">FOTOGRAFIA DE PRODUCTOS</h4>
+      <p class="txt-gray">Hacemos que tus productos se destanque con unas fotos increibles.</p>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <img src="img/icono10.jpg" class="icon-circle icon-servicios-sm" alt="">
+      <h4 class="txt-white">CONSULTORIAS</h4>
+      <p class="txt-gray">Te ayudamos a alcanzar tu meta trabajando a la par.</p>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <img src="img/icono11.jpg" class="icon-circle icon-servicios-sm" alt="">
+      <h4 class="txt-white">IMAGEN</h4>
+      <p class="txt-gray">Le damos a tu marca un diseño distintivo</p>
+    </div>
+  </div>
+
+</div>
+
+
+<div id="whatsay" class="container-fluid bg-secundario text-center">
+  <h2>NOS ELIGIERON</h2>
+  <br>
+  <div class="row text-center">
+    <div class="col-md-3 col-sm-6">
+      <img src="img/tn-logo05.jpg" class="icon-circle icon-clientes" alt="Inicio en la web - ">
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <a href="https://milosintacc.mitiendanube.com/" target="_blank"><img src="img/tn-logo01.jpg" class="icon-circle icon-clientes" alt="Tienda Nube de Milo Sin Tacc - Logo de Milo Sin Tacc"></a>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <a href="https://palibrochas.com/" target="_blank"><img src="img/tn-logo02.jpg" class="icon-circle icon-clientes" alt="Tienda Nube de Pali Brochas - Logo de Pali Brochas"></a>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <a href="https://matesimperioverde.mitiendanube.com/" target="_blank"><img src="img/tn-logo03.jpg" class="icon-circle icon-clientes" alt="Tienda Nube de Mates Imperio Verde - Logo de Mates Imperio Verde"></a>
+    </div>
+    <!--div class="col-md-3">
+      <a href="https://colchoneriaivana2.mitiendanube.com/" target="_blank"><img src="img/tn-logo04.jpg" class="icon-circle icon-clientes" alt="Tienda Nube de Colchoneria Ivana - Logo de Colchoneria Ivana"></a>
+    </div-->
+  </div>
+
+
+  <br><br>
+  
+
+  <h4>Algunos de los comentarios </h4>
+
+  <div class="slideshow-container">
+    <div class="mySlides">
+      <q>Super recomendable! Mi tienda quedó tal y como la pedí. </q>
+      <p class="author">Fernanda - Milo sin Tacc</p>
+    </div>
+
+    <div class="mySlides">
+      <q>Las ideas son muy buenas, el trabajo, las explicaciones muy claras.</q>
+      <p class="author">Anonimo</p>
+    </div>
+
+    <div class="mySlides">
+      <q>Buenos tiempos de entrega de producto y atención brindada.</q>
+      <p class="author">Anonimo</p>
+    </div>
+
+    <!-- Next/prev buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <!-- Dots/bullets/indicators -->
+  <div class="dot-container">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+</div>
+
+</div>
+
+<!-- Container (Pricing Section) -->
+
+<div id="pricing" class="container-fluid bg-primario">
+   <h2 class="text-center txt-white">PRECIOS</h2>
+  <h4 class="text-center txt-gray">Los costos expresados a continuación son a modo de referencia. Para tener un presupuesto según sus necesidades contactenos por cualquiera de los medios especificados en la sección de Contacto.</h4>
+  <br>
+  <div class="row text-center seccion-precios">
+    <div class="col-md-4">
+      <a href="https://www.merakisolution.com.ar/sitios-web/" class="imgprecios" target="_blank">
+        <img src="img/precios01b.jpg" class="precios" alt="precio de las tiendas nubes">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="https://www.merakisolution.com.ar/tiendas-online/" class="imgprecios" target="_blank">
+        <img src="img/precios02.jpg" class="precios" alt="precio de las landing page">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="https://www.merakisolution.com.ar/administracion-de-cuentas/" class="imgprecios" target="_blank">
+        <img src="img/precios03.jpg" class="precios" alt="precio por el manejo de redes sociales">
+      </a>
+    </div>
+  </div>
+  <div class="seccion-preciosmini">
+    <a href="https://www.merakisolution.com.ar/sitios-web/" class="imgprecios" target="_blank">
+      <img src="img/preciosmini01.jpg" class="preciosmini" alt="precio de las tiendas nubes">
+    </a>
+    <a href="https://www.merakisolution.com.ar/tiendas-online/" class="imgprecios" target="_blank">
+      <img src="img/preciosmini02.jpg" class="preciosmini" alt="precio de las landing page">
+    </a>
+    <a href="https://www.merakisolution.com.ar/administracion-de-cuentas/" class="imgprecios" target="_blank">
+      <img src="img/preciosmini03.jpg" class="preciosmini" alt="precio por el manejo de redes sociales">
+    </a>
+  </div>
+    <br>
+    <p class="txt-gray text-justify">Los precios expresados anteriormente NO incluyen: Hosting, dominio propio, cuentas de email, costos de mantenimientos de plataformas (ej. TiendaNube).</p>
+    <p class="txt-gray text-justify"><strong>Medios de pago:</strong> Efectivo, transferencia bancaria, MercadoPago.</p>
+    
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="container-fluid bg-secundario" id="contact">
+    <h2 class="text-center">CONTACTO</h2>
+    <p class="text-center">Contacta con nosotros. Te estaremos respondiendo en las proximas 24 hs.</p>
+     <div class="row">
+      <div class="col-md-4 form-group text-center"> 
+        <i class="fa txt-primario img-fa">&#xf0e0;</i>
+        <p class="">info@merakisolution.com</p>
+      </div>
+
+      <div class="col-md-4 form-group text-center">
+        <i class="fa fa-phone txt-primario img-fa"></i>
+        <p class="">(011) 3118 1287</p>
+      </div>
+          
+      <div class="col-md-4 form-group text-center">
+        <i class="fa txt-primario img-fa">&#xf0ac;</i>
+        <p class="">Villa Giardino, Córdoba, Arg.</p> 
+      </div>
+    </div> 
+
+    <div class="text-center">
+        <a href="mailto:info@merakisolution.com?Subject=Consulta%Web" class="d-inline" target="_top">
+          <i class="material-icons" style="font-size:30px; vertical-align:middle;"> email</i>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=5491131181287" class="d-inline" target="_blank">
+          <i class="fa fa-whatsapp" style="font-size:30px; vertical-align:middle;"></i>
+        </a>
+        <a href="https://www.facebook.com/MerakiSolutionArg" class="d-inline" target="_blank">
+          <i class='fab fa-facebook' style="font-size:30px; vertical-align:middle;"></i>
+        </a>
+        <a href="https://m.me/333771767364778" class="d-inline" target="_blank">
+          <i class='fab fa-facebook-messenger' style="font-size:30px; vertical-align:middle;"></i>
+        </a>
+        <a href="https://www.instagram.com/merakisolution1/" class="d-inline" target="_blank">
+          <i class='fab fa-instagram' style="font-size:30px; vertical-align:middle;"></i>
+        </a>
+        <!--a href="skype:erikazimm?chat">
+          <i class='fab fa-skype' style="font-size:30px; vertical-align:middle;"></i>
+        </a-->
+    </div>
+    
+    <br>
+
+    <div class="">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d109404.19884173702!2d-64.492592!3d-31.029558999999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d8484df715175%3A0xf867fd678134aae6!2sVilla%20Giardino%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1575658771153!5m2!1ses-419!2sar" width=100% height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+  </div>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <a href="https://api.whatsapp.com/send?phone=5491131181287" class="float" target="_blank">
+  <i class="fa fa-whatsapp my-float"></i>
+  </a>
+</div>
+
+
+<footer class="text-center bg-final">
+  <br>
+</footer>
+
+<script>
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+
+</body>
+</html>
