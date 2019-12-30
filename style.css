@@ -196,7 +196,7 @@ q {font-style: italic;}/* Add an italic font style to all quotes */
   @media screen and (max-width: 767px) {
     .container-fluid{padding-right: 30px; padding-left: 30px; padding-top: 50px; padding-bottom:50px;}
     .col-sm-3 {text-align: center; margin: 25px 0;}
-    #img-logo{width: 70%!important; padding-top: 20px;}
+    #img-logo{width: 70%!important; padding-top: 40px;}
     #banner01{display: none;}
     #banner02{display: initial;}
     #img-nubebanner, #img-nubebannermini00{display: none;}
