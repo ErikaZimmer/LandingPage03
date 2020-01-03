@@ -49,6 +49,7 @@
   .seccion-preciosmini{display: none;}
   .material-icons{font-size:30px; vertical-align:middle;}
   #cogido-qr{width: 80px;}
+  .dont-show{display:none;}
 
   /*MENU*/
   .navbar {
@@ -201,6 +202,7 @@ q {font-style: italic;}/* Add an italic font style to all quotes */
     li.nav-item {padding: 0px;}
     li.nav-item:hover {transform:scale(1);}
     li.nav-item:active{transform:scale(0.9);}
+    .dont-show{display:inline;}
   }
 
   @media screen and (max-width: 425px){
