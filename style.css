@@ -29,85 +29,59 @@
   .txt-secundario{color:#FFCA28;}
   .border-yellow{border-style: solid; border-width: 2px; border-right: 4px solid #FFCA28; border-left: 4px solid #FFCA28; border-color:#FFCA28;}
 
-  .logo-principal {
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    align-self: center;
-  }
+
+  /*IMAGENES*/
+  .icon-circle{border-radius: 200px 200px 200px 200px; -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px; border: 0px solid #000000; }
+  .logo-principal {text-align: center; align-items: center; align-content: center; align-self: center;}
   .banner{padding-bottom: 60px;}
   #banner02{display: none;}
+  .icon-seccion{width: 180px;}
+  .icon-nosotros{width: 100px;}
+  .icon-servicios{width: 130px;}
+  .icon-servicios-sm{width: 100px;}
+  .icon-clientes{width: 150px; margin-bottom:15px;}
+  .precios{width:90%; }
+  .preciosmini{width:100%; margin-bottom: 20px;}
+  .precios, .preciosmini {-webkit-box-shadow: 7px 7px 14px 1px rgba(92,92,92,1);
+    -moz-box-shadow: 7px 7px 14px 1px rgba(92,92,92,1);
+    box-shadow: 7px 7px 14px 1px rgba(92,92,92,1);}
+  .seccion-preciosmini{display: none;}
+  .material-icons{font-size:30px; vertical-align:middle;}
+  #cogido-qr{width: 80px;}
 
-  .icon-circle{
-    border-radius: 200px 200px 200px 200px;
-  -moz-border-radius: 200px 200px 200px 200px;
-  -webkit-border-radius: 200px 200px 200px 200px;
-  border: 0px solid #000000;
-  }
-
-
-  /*Idiomas*/
-  .idiomas {
-    color: black!important;
-    margin-top: 5px;
-    margin-right: 5px;
-    background-color: #fff;
-    font-size: 12px !important;
-    line-height: 1.42857143 !important;
-    letter-spacing: 3px;
-    font-family: Montserrat, sans-serif;
-    text-align: right!important;
-  }
-
-
-  /*Menú*/
+  /*MENU*/
   .navbar {
       color: black!important;
       margin-bottom: 0;
       background-color: #fff;
       opacity:1;
-      font-size: 12px !important;
+      font-size: 12px;
       line-height: 1.42857143 !important;
       letter-spacing: 4px;
       font-family: Montserrat, sans-serif;
-      position: -webkit-sticky; /* Safari */
+      position: -webkit-sticky; /* Safari*/
       position: sticky;
       text-align: center!important;
       top: 0;
       z-index: 999;
+      min-height: 30px;
   }
-  .navbar-nav {  
-      width: 100%!important;
-      text-align: center!important;
-  }
+  .navbar-nav {width: 100%!important; text-align: center!important;}
   .navbar-toggler{color: #880e4f;}
   .navbar-toggler-icon {color: #880e4f;background-color: white;}
-  a {color: black;
-    text-align: center;}
+  a {color: black; text-align: center;}
   a:hover, a:active {color: white;}
-  li.nav-item {padding: 15px;}
-  li.nav-item:hover {
-        background-color: #cc0066;
-        transform:scale(1.10);
-        text-decoration-line: none;
-  }
-  li.nav-item:active{
-    background-color: #cc0066;
-    transform:scale(1);
-    text-decoration-line: none;
-  }
-  .navbar-header {
-      position: fixed;
-      top: 0;
-      width: 100%;}
+  li.nav-item {padding: 0px;}
+  li.nav-item:hover {background-color: #cc0066; transform:scale(1.10); text-decoration-line: none;}
+  li.nav-item:active{background-color: #cc0066; transform:scale(1); text-decoration-line: none;}
+  .navbar-header {position: fixed; top: 0; width: 100%; padding-left: 0px;} 
 
-  nav.navbar.navbar-expand-md{height: 70px; padding:0px; vertical-align: middle;}
 
   /*General*/
   body{width: 100%;}
   .container-fluid{padding: 60px; padding-top: 100px; padding-bottom: 100px;}
   .row{margin-right: 0px; margin-left: 0px;}
-
 
   /*Tienda Nube*/
   #img-nubebanner{}
@@ -144,56 +118,64 @@
 .dot.active, .dot:hover {background-color: #880e4f;}/* Add a background color to the active dot/circle */
 q {font-style: italic;}/* Add an italic font style to all quotes */
 
-  /*Tabla de precios*/
-
-
 /*CONTACTO*/
 .btn{background-color: #b36690; border-color: #b36690; color: white;}
 .btn:hover{background-color: #880e4f; border-color: #880e4f; color: white;}
 .btn:onclick{ transform:scale(1.10);}
 .custom-control-input:checked~.custom-control-label::before {background-color: #880e4f; border-color: #b36690;}
-.img-fa{font-size:40px!important;}
+.img-fa{font-size:40px;}
 
  /*Boton de What´s App*/ 
   .float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:20px;
-	right:20px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:20px;
+  right:20px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
   font-size:30px;
-	box-shadow: 2px 2px 3px #999;
+  box-shadow: 2px 2px 3px #999;
   z-index:10;
 }
 .my-float{margin-top:16px;}
 
+/*FOOTER*/
+  p.txt-footer{margin-bottom: 0px;}
 
-/*IMAGENES*/
-.icon-seccion{ width: 180px; }
-.icon-nosotros{width: 100px;}
-.icon-servicios{width: 130px;}
-.icon-servicios-sm{width: 100px;}
-.icon-clientes{width: 150px; margin-bottom:15px;}
-.precios{width:90%; }
-.preciosmini{width:100%; margin-bottom: 20px;}
-.precios, .preciosmini {-webkit-box-shadow: 7px 7px 14px 1px rgba(92,92,92,1);
-  -moz-box-shadow: 7px 7px 14px 1px rgba(92,92,92,1);
-  box-shadow: 7px 7px 14px 1px rgba(92,92,92,1);}
-.seccion-preciosmini{display: none;}
-
-  @media screen and (max-width: 1000px){
+@media screen and (min-width: 1000px){
     .container-fluid{padding-right: 30px; padding-left: 30px;}
     div.col-md-4{padding:0px; margin-bottom:30px;}
     div.col-md-3.text-center{padding-right:0px; padding-left: 0px;}
-    a.nav-link{padding:0px!important;}
-    a.nav-link:active{padding:0px;}
-  }
+    a.nav-link{padding-top: 24px; padding-bottom: 24px; padding-left: 12px!important; padding-right: 12px!important;}
+ }
 
-  @media screen and (max-width: 767px) {
+ @media screen and (min-width: 1025px){
+  .navbar {font-size: 14px;}
+  .icon-seccion{width: 250px;}
+ }
+
+@media screen and (min-width: 1600px){
+  a.nav-link {font-size: 28px;}
+  q{font-size:34px;} 
+  p{font-size:32px;}
+  h2{font-size:60px;}
+  h4{font-size:42px;}
+  h5{font-size:36px;}
+  h6{font-size: 28px;}
+  .icon-seccion{width: 390px;}
+  .icon-nosotros{width: 200px;}
+  .icon-servicios{width: 260px;}
+  .icon-servicios-sm{width: 200px;}
+  .icon-clientes{width: 70%; margin-bottom:15px;}
+  .img-fa{font-size:80px!important;}
+  .material-icons{font-size:60px;}
+  a.nav-link{padding-top: 32px; padding-bottom: 32px; padding-left: 24px!important; padding-right: 24px!important;}
+}
+
+ @media screen and (max-width: 767px) {
     .container-fluid{padding-right: 30px; padding-left: 30px; padding-top: 50px; padding-bottom:50px;}
     .col-sm-3 {text-align: center; margin: 25px 0;}
     #img-logo{width: 70%!important; padding-top: 40px;}
@@ -210,8 +192,10 @@ q {font-style: italic;}/* Add an italic font style to all quotes */
     div.col-md-9{margin-bottom:0px;}
     .prev, .next {margin-top: -130px;}
     p.txt-white{margin-bottom: 0px;}
-    nav.navbar.navbar-expand-md{height: 30px;}
     .float{position:fixed; width:60px; height:60px; bottom:10px; right:10px;}
+    li.nav-item {padding: 0px;}
+    li.nav-item:hover {transform:scale(1);}
+    li.nav-item:active{transform:scale(0.9);}
   }
 
   @media screen and (max-width: 425px){
@@ -225,3 +209,4 @@ q {font-style: italic;}/* Add an italic font style to all quotes */
     #img-nubebanner, #img-nubebannermini01{display: none;}
     #img-nubebannermini00{display: initial;}
     }
+
